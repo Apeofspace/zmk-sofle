@@ -53,32 +53,32 @@
    display-name = "base";
    };
 
-        layer_1 {
-            bindings = <
-&trans         &kp F1          &kp F2                &kp F3              &kp F4           &kp F5        &mmv MOVE_UP     &kp F6     &kp F7      &kp F8    &kp F9        &kp F10     &kp DEL
-&kp F11        &kp HOME        &kp UP_ARROW          &kp END             &kp MINUS        &kp LBRC      &mmv MOVE_DOWN   &kp RBRC   &kp PLUS    &trans    &kp K_CALC    &kp PSCRN   &kp RBRC
-&kp F12        &kp LEFT_ARROW  &kp DOWN_ARROW        &kp RIGHT_ARROW     &kp UNDER        &kp LPAR      &mmv MOVE_LEFT   &kp RPAR   &kp EQUAL   &kp DQT   &trans        &kp COLON   &trans
-&trans         &kp PG_UP       &rgb_ug RGB_TOG       &kp PG_DN           &kp INSERT       &kp LBRK      &mmv MOVE_RIGHT  &kp RBRK   &trans      &trans    &trans        &trans      &trans
-&kp C_MUTE     &trans          &trans                &trans              &trans           &trans        &mkp LCLK        &trans     &trans      &trans    &trans        &trans
-                      >;
+/*         layer_1 { */
+/*             bindings = < */
+/* &trans         &kp F1          &kp F2                &kp F3              &kp F4           &kp F5        &mmv MOVE_UP     &kp F6     &kp F7      &kp F8    &kp F9        &kp F10     &kp DEL */
+/* &kp F11        &kp HOME        &kp UP_ARROW          &kp END             &kp MINUS        &kp LBRC      &mmv MOVE_DOWN   &kp RBRC   &kp PLUS    &trans    &kp K_CALC    &kp PSCRN   &kp RBRC */
+/* &kp F12        &kp LEFT_ARROW  &kp DOWN_ARROW        &kp RIGHT_ARROW     &kp UNDER        &kp LPAR      &mmv MOVE_LEFT   &kp RPAR   &kp EQUAL   &kp DQT   &trans        &kp COLON   &trans */
+/* &trans         &kp PG_UP       &rgb_ug RGB_TOG       &kp PG_DN           &kp INSERT       &kp LBRK      &mmv MOVE_RIGHT  &kp RBRK   &trans      &trans    &trans        &trans      &trans */
+/* &kp C_MUTE     &trans          &trans                &trans              &trans           &trans        &mkp LCLK        &trans     &trans      &trans    &trans        &trans */
+/*                       >; */
 
-    display-name = "lower";
-    sensor-bindings = <&scroll_encoder>;
-    };
+/*     display-name = "lower"; */
+/*     sensor-bindings = <&scroll_encoder>; */
+/*     }; */
 
 
-        layer_2 {
-            bindings = <
-&trans         &trans          &trans                &trans              &trans           &trans        &trans     &trans     &trans      &trans    &trans        &trans     &trans
-&trans         &trans          &trans                &trans              &trans           &trans        &trans     &trans     &trans      &trans    &trans        &trans     &trans
-&trans         &trans          &trans                &trans              &trans           &trans        &trans     &trans     &trans      &trans    &trans        &trans     &trans
-&trans         &trans          &trans                &trans              &trans           &trans        &trans     &trans     &trans      &trans    &trans        &trans     &trans
-&kp C_MUTE     &trans          &trans                &trans              &trans           &trans        &mkp LCLK        &trans     &trans      &trans    &trans        &trans
-                      >;
+/*         layer_2 { */
+/*             bindings = < */
+/* &trans         &trans          &trans                &trans              &trans           &trans        &trans     &trans     &trans      &trans    &trans        &trans     &trans */
+/* &trans         &trans          &trans                &trans              &trans           &trans        &trans     &trans     &trans      &trans    &trans        &trans     &trans */
+/* &trans         &trans          &trans                &trans              &trans           &trans        &trans     &trans     &trans      &trans    &trans        &trans     &trans */
+/* &trans         &trans          &trans                &trans              &trans           &trans        &trans     &trans     &trans      &trans    &trans        &trans     &trans */
+/* &kp C_MUTE     &trans          &trans                &trans              &trans           &trans        &mkp LCLK        &trans     &trans      &trans    &trans        &trans */
+/*                       >; */
 
-    display-name = "lower";
-    sensor-bindings = <&scroll_encoder>;
-    };
+/*     display-name = "lower"; */
+/*     sensor-bindings = <&scroll_encoder>; */
+/*     }; */
 
     };
 };
