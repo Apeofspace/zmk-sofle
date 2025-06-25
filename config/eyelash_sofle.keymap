@@ -49,25 +49,24 @@
 &kp GRAVE      &kp Q           &kp W                 &kp E               &kp R            &kp T         &kp DOWN_ARROW   &kp Y      &kp U             &kp I     &kp O         &kp P       &kp LBKT
 &kp TAB        &kp A           &kp S                 &kp D               &kp F            &kp G         &kp LEFT_ARROW   &kp H      &kp J             &kp K     &kp L         &kp SEMI    &kp APOS
 &kp LEFT_ALT   &kp Z           &kp X                 &kp C               &kp V            &kp B         &kp RIGHT_ARROW  &kp N      &kp M             &kp COMMA &kp DOT       &kp FSLH    &kp BSLH
-&kp C_MUTE     &kp LEFT_GUI    &kp LEFT_ALT          &kp LCTRL           &mo LEFT_SHIFT   &kp SPACE     &kp ENTER        &kp ENTER  &mclt 1 TAB       &kp TAB   &kp RIGHT_ALT &kp LEFT_GUI
+&kp C_MUTE     &kp LEFT_GUI    &kp LEFT_ALT          &kp LCTRL           &mo LEFT_SHIFT   &kp SPACE     &kp ENTER        &kp ENTER  &lt 1 TAB       &kp TAB   &kp RIGHT_ALT &kp LEFT_GUI
                       >;
 
    sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
    display-name = "base";
    };
 
-/*         layer_1 { */
-/*             bindings = < */
-/* &trans         &kp F1          &kp F2                &kp F3              &kp F4           &kp F5        &mmv MOVE_UP     &kp F6     &kp F7      &kp F8    &kp F9        &kp F10     &kp DEL */
-/* &kp F11        &kp HOME        &kp UP_ARROW          &kp END             &kp MINUS        &kp LBRC      &mmv MOVE_DOWN   &kp RBRC   &kp PLUS    &trans    &kp K_CALC    &kp PSCRN   &kp RBRC */
-/* &kp F12        &kp LEFT_ARROW  &kp DOWN_ARROW        &kp RIGHT_ARROW     &kp UNDER        &kp LPAR      &mmv MOVE_LEFT   &kp RPAR   &kp EQUAL   &kp DQT   &trans        &kp COLON   &trans */
-/* &trans         &kp PG_UP       &rgb_ug RGB_TOG       &kp PG_DN           &kp INSERT       &kp LBRK      &mmv MOVE_RIGHT  &kp RBRK   &trans      &trans    &trans        &trans      &trans */
-/* &kp C_MUTE     &trans          &trans                &trans              &trans           &trans        &mkp LCLK        &trans     &trans      &trans    &trans        &trans */
-/*                       >; */
-
-/*     display-name = "lower"; */
-/*     sensor-bindings = <&scroll_encoder>; */
-/*     }; */
+        layer_1 {
+            bindings = <
+&trans         &kp F1          &kp F2                &kp F3              &kp F4           &kp F5        &mmv MOVE_UP     &kp F6     &kp F7      &kp F8    &kp F9        &kp F10     &kp DEL
+&kp F11        &kp HOME        &kp UP_ARROW          &kp END             &kp MINUS        &kp LBRC      &mmv MOVE_DOWN   &kp RBRC   &kp PLUS    &trans    &kp K_CALC    &kp PSCRN   &kp RBRC
+&kp F12        &kp LEFT_ARROW  &kp DOWN_ARROW        &kp RIGHT_ARROW     &kp UNDER        &kp LPAR      &mmv MOVE_LEFT   &kp RPAR   &kp EQUAL   &kp DQT   &trans        &kp COLON   &trans
+&trans         &kp PG_UP       &rgb_ug RGB_TOG       &kp PG_DN           &kp INSERT       &kp LBRK      &mmv MOVE_RIGHT  &kp RBRK   &trans      &trans    &trans        &trans      &trans
+&kp C_MUTE     &trans          &trans                &trans              &trans           &trans        &mkp LCLK        &trans     &trans      &trans    &trans        &trans
+                      >;
+    display-name = "lower";
+    sensor-bindings = <&scroll_encoder>;
+    };
 
 
 /*         layer_2 { */
