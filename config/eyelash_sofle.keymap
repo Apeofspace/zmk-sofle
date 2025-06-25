@@ -66,5 +66,19 @@
     sensor-bindings = <&scroll_encoder>;
     };
 
+
+        layer_2 {
+            bindings = <
+&trans         &trans          &trans                &trans              &trans           &trans        &trans     &trans     &trans      &trans    &trans        &trans     &trans
+&trans         &trans          &trans                &trans              &trans           &trans        &trans     &trans     &trans      &trans    &trans        &trans     &trans
+&trans         &trans          &trans                &trans              &trans           &trans        &trans     &trans     &trans      &trans    &trans        &trans     &trans
+&trans         &trans          &trans                &trans              &trans           &trans        &trans     &trans     &trans      &trans    &trans        &trans     &trans
+&kp C_MUTE     &trans          &trans                &trans              &trans           &trans        &mkp LCLK        &trans     &trans      &trans    &trans        &trans
+                      >;
+
+    display-name = "lower";
+    sensor-bindings = <&scroll_encoder>;
+    };
+
     };
 };
