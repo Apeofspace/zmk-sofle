@@ -31,31 +31,17 @@
     flavor = "hold-preferred";
 };
 
-/* / { */
-/*     behaviors: { */
-/*      mclt: mycoollayertap { */
-/*       compatible = "zmk,behavior-hold-tap"; */
-/*       label = "MY_COOL_LAYER_TAP"; */
-/*       #binding-cells = <2>; */
-/*       flavor = "hold-preferred"; */
-/*       tapping-term-ms = <150>; */
-/*       /* quick-tap-ms = <125>; */ */
-/*       /* global-quick-tap; */ */
-/*       bindings = <&mo>, <&kp>; */
-/*     }; */
-/*   }; */
-/* } */
-
 / {
-    scroll_encoder: scroll_encoder {
+  scroll_encoder: scroll_encoder
+    {
         compatible = "zmk,behavior-sensor-rotate";
         #sensor-binding-cells = <0>;
         bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
         tap-ms = <100>;
     };
 
-keymap {
-    compatible = "zmk,keymap";
+  keymap {
+      compatible = "zmk,keymap";
 
         layer0 {
             bindings = <
@@ -97,5 +83,5 @@ keymap {
 /*     sensor-bindings = <&scroll_encoder>; */
 /*     }; */
 
-    };
+  };
 };
